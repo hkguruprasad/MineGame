@@ -1,0 +1,89 @@
+#gameConfiguartion{
+	padding: 15px 0px;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 1px;
+    margin-right: 10px;
+    background-color: grey;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+#mineGrid {
+    width: 252px;
+    height: 252px;
+    background: #999;
+    padding: 0px;
+    border: 2px solid #000;
+}
+
+input[type="button"] {
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+}
+
+input[type='button'].mineBox {
+    margin: 0px;
+    padding: 0px;
+    width: 21px;
+    height: 21px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #BFBFBF;
+    display: inline-block;
+    float: left;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid #707070;
+    border-bottom: 3px solid #707070;
+}
+
+input[type='button'].mineBox:active, input[type='button'].mineBox.active {
+    background-color: #BFBFBF;
+    border-top: 3px solid #BFBFBF;
+    border-left: 3px solid #BFBFBF;
+    border-right: 3px solid #BFBFBF;
+    border-bottom: 3px solid #BFBFBF;
+}
+
+#countTracker {
+    padding: 10px;
+    width: auto;
+    height: 26px;
+    background-color: #BFBFBF;
+    text-align: left;
+    border: 3px solid #707070;
+}
+
+#countTracker .panel {
+    display: inline-block;
+    padding: 1px;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: monospace;
+    border-top: 1px solid #707070;
+    border-left: 1px solid #707070;
+    border-right: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.lost{
+	color: #FF0000;
+	font-size: 30px;
+	padding: 5px;
+}
+
+.won{
+	color: #00CC66;
+	font-size: 30px;
+	padding: 5px;
+}

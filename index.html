@@ -1,0 +1,31 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Minesweeper Game</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+
+<body>
+    <div id="gameConfiguartion">Select of mines:
+        <input type="number" name="mineCount" value="10">Columns:
+        <input type="number" name="columns" value="12">&nbsp;Rows:
+        <input type="number" name="rows" value="12">
+    </div>
+    <div id="mineGrid">
+        <div id="countTracker">Mines Marked:
+            <div id="bombCount" class="panel left">010</div>
+            <!-- <div id="score-time-count" class="panel right">000</div> -->
+        </div>
+        <div id='mineField'></div>
+    </div>
+    <br>
+    <button onclick="init()">Start Game !</button>
+    <div id="status"></div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
